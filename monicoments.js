@@ -6,7 +6,7 @@ const api = axios.create({
         baseURL: "https://api.github.com/"
     })
 
-api.get("repos/seita-ifce/hello-js-v3/issues/1/comments").then(ret => {
+api.get("repos/seita-ifce/hello-js-v3/issues/2/comments").then(ret => {
     //ROOT JS
     //users = (ret.data)
     // //verifica se tem algum comentario
